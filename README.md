@@ -7,7 +7,7 @@ A demo project written in pure SwiftUI (iOS 15+) showcasing different navigation
 -   **NavigationStack**  (iOS 16+)
 -   **NavigationStack with Coordinator pattern**  (iOS 16+)
 
-The idea behind this project is to demonstrate various techniques the author employs when building SwiftUI apps, focusing on navigation handling, architectural decisions, testing, and more.
+The idea behind this project is to demonstrate various techniques the I employ when building SwiftUI apps, focusing on navigation handling, architectural decisions, testing, and more.
 
 ## Table of Contents
 
@@ -35,17 +35,17 @@ You’ll find three separate “flows”:
 By showcasing these flows in one codebase, the repository demonstrates:
 
 -   How to manage navigation under varying deployment targets.
--   How to organize code for clarity, scalability, and testability.
+-   How to organie code for clarity, scalability, and testability.
 
 ----------
 
 ## Features
 
 -   **SwiftUI Navigation**  for both iOS 15 and iOS 16+ (using  `NavigationLink`  vs.  `NavigationStack`).
--   **Coordinator Pattern**  to handle navigation in a centralized manner for more complex flows.
+-   **Coordinator Pattern**  to handle navigation in a centralised manner for more complex flows.
 -   **MVVM Architecture**  to keep your view layer clean and separate from business logic.
 -   **Repository as an Actor**  leveraging Swift’s concurrency model (`async/await`) for thread-safe data handling.
--   **Custom ViewModifiers**  and SwiftUI extensions to showcase reusability and better code organization.
+-   **Custom ViewModifiers**  and SwiftUI extensions to showcase reusability and better code organisation.
 -   **Protocol-Oriented Design**  to facilitate easier testing and mocking.
 -   **Logging with OSLog**  for effective in-app logging and troubleshooting.
 -   **No Third-Party Libraries**  to keep dependencies minimal and showcase pure Swift solutions.
@@ -87,13 +87,13 @@ By showcasing these flows in one codebase, the repository demonstrates:
 3.  **Coordinator Pattern**
     
     -   An advanced example that combines  `NavigationStack`  with a Coordinator.
-    -   Perfect for handling more complex navigation flows (multi-screen, modal, etc.) while keeping your code organized.
+    -   Perfect for handling more complex navigation flows (multi-screen, modal, etc.) while keeping your code organised.
 
 ----------
 
 ## Testing
 
-The project showcases the usage of the  **new Swift Testing Framework**  to replace or complement traditional XCTest. Tests are organized in the  `Tests`  folder, covering:
+The project showcases the usage of the  **new Swift Testing Framework**  to replace or complement traditional XCTest. Tests are organised in the  `Tests`  folder, covering:
 
 -   **Unit Tests**  for ViewModels.
 -   **Integration Tests**  for Repository layer with Swift Concurrency.
