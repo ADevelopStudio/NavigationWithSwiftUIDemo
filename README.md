@@ -68,9 +68,9 @@ By showcasing these flows in one codebase, the repository demonstrates:
     git clone https://github.com/ADevelopStudio/NavigationWithSwiftUIDemo.git
     ```    
 2.  **Open in Xcode**:  
-    Double-click  `NavigationWithSwiftUIDemo.xcodeproj`  or open it via Xcode’s “Open” dialog.
+    Double-click  `NavigationDEmo.xcodeproj`  or open it via Xcode’s “Open” dialog.
 3.  **Run the project**:  
-    Select the  `NavigationWithSwiftUIDemo`  scheme and choose a simulator (or a real device) with iOS 15+ installed.
+    Select the  `NavigationDEmo`  scheme and choose a simulator (or a real device) with iOS 15+ installed.
 
 ----------
 
@@ -93,7 +93,7 @@ By showcasing these flows in one codebase, the repository demonstrates:
 
 ## Testing
 
-The project showcases the usage of the  **new Swift Testing Framework**  to replace or complement traditional XCTest. Tests are organised in the  `Tests`  folder, covering:
+The project showcases the usage of the  **new Swift Testing Framework**  to replace or complement traditional XCTest. Tests are organised in the  `NavigationDEmoTests`  folder, covering:
 
 -   **Unit Tests**  for ViewModels.
 -   **Integration Tests**  for Repository layer with Swift Concurrency.
